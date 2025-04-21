@@ -66,6 +66,9 @@
     <Compile Include="Tri.Designer.cs">
       <DependentUpon>Tri.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DuoForm.resx">
+      <DependentUpon>DuoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
