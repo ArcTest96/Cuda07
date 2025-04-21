@@ -57,7 +57,7 @@ namespace Cuda07
             }
             else if(xD == 6)
             {
-                MessageBox.Show("Cobot - Co");
+                MessageBox.Show("Cobol - Co");
                 xD = 0;
             }
 
