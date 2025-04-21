@@ -47,7 +47,7 @@ namespace Cuda07
             }
             else if (xD == 4)
             {
-                MessageBox.Show("Java - Jav");
+                MessageBox.Show("Java - Ja");
                 xD = 0;
             }
 
