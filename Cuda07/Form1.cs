@@ -22,5 +22,11 @@ namespace Cuda07
             DuoForm duoForm = new DuoForm();
             duoForm.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Tri t = new Tri();
+            t.ShowDialog();
+        }
     }
 }
