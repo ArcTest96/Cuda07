@@ -28,7 +28,7 @@ namespace Cuda07
         {
             if (xD == 1)
             {
-                MessageBox.Show("JavaScript");
+                MessageBox.Show("JavaScript - js");
                 xD = 0;
             }
             else if (xD == 0)
