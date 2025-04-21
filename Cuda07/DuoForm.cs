@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Cuda07
 {
-    public partial class Form1 : Form
+    public partial class DuoForm : Form
     {
-        public Form1()
+        public DuoForm()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            DuoForm duoForm = new DuoForm();
-            duoForm.ShowDialog();
         }
     }
 }
