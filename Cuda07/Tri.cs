@@ -43,6 +43,11 @@ namespace Cuda07
             else if (xD == 3)
             {
                 MessageBox.Show("C# - Csharp");
+                xD = 4;
+            }
+            else if (xD == 4)
+            {
+                MessageBox.Show("Java - Jav");
                 xD = 0;
             }
 
