@@ -16,5 +16,15 @@ namespace Cuda07
         {
             InitializeComponent();
         }
+
+        private void Tri_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("alicegt");
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("ChangeUICues");
+        }
     }
 }
