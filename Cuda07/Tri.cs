@@ -33,7 +33,7 @@ namespace Cuda07
             }
             else if (xD == 0)
             {
-                MessageBox.Show("PHP - Weeb");
+                MessageBox.Show("PHP - Weeb xd");
                 xD = 1;
             }
             
