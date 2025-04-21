@@ -52,7 +52,12 @@ namespace Cuda07
             }
             else if (xD == 5)
             {
-                MessageBox.Show("C++ - CPP");
+                MessageBox.Show("C++ - Cpp");
+                xD = 6;
+            }
+            else if(xD == 6)
+            {
+                MessageBox.Show("Cobot - Co");
                 xD = 0;
             }
 
