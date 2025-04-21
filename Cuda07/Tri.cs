@@ -22,9 +22,22 @@ namespace Cuda07
             MessageBox.Show("alicegt");
         }
 
+        int xD = 1;
+
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("ChangeUICues");
+            if (xD == 1)
+            {
+                MessageBox.Show("ChangeUICues");
+                xD = 0;
+            }
+            else if (xD == 0)
+            {
+                MessageBox.Show("PHP");
+                xD = 1;
+            }
+            
+
         }
     }
 }
