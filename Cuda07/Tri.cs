@@ -47,7 +47,12 @@ namespace Cuda07
             }
             else if (xD == 4)
             {
-                MessageBox.Show("Java - Jav");
+                MessageBox.Show("Java - Ja");
+                xD = 5;
+            }
+            else if (xD == 5)
+            {
+                MessageBox.Show("C++ - Cpp");
                 xD = 0;
             }
 
