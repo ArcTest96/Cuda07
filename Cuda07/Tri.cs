@@ -27,7 +27,7 @@ namespace Cuda07
         {
             if (xD == 0)
             {
-                MessageBox.Show("JavaScript - js");
+                MessageBox.Show("JavaScript - Js");
                 xD = 1;
             }
             else if (xD == 1)
@@ -37,7 +37,7 @@ namespace Cuda07
             }
             else if (xD == 2)
             {
-                MessageBox.Show("Python - py");
+                MessageBox.Show("Python - Py");
                 xD = 0;
             }
 
