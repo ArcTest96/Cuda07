@@ -52,7 +52,7 @@ namespace Cuda07
             }
             else if (xD == 5)
             {
-                MessageBox.Show("C++ - Cpp");
+                MessageBox.Show("C++ - CPP");
                 xD = 0;
             }
 
