@@ -28,7 +28,7 @@ namespace Cuda07
         {
             if (xD == 1)
             {
-                MessageBox.Show("ChangeUICues");
+                MessageBox.Show("JavaScript");
                 xD = 0;
             }
             else if (xD == 0)
