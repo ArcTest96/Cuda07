@@ -38,6 +38,11 @@ namespace Cuda07
             else if (xD == 2)
             {
                 MessageBox.Show("Python - Py");
+                xD = 3;
+            }
+            else if (xD == 3)
+            {
+                MessageBox.Show("C# - Csharp");
                 xD = 0;
             }
 
