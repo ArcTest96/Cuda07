@@ -16,9 +16,30 @@ namespace Cuda07
         {
             InitializeComponent();
         }
+        private void Tri_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("alicegt");
+        }
+
+        int xD = 0;
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            if (xD == 0)
+            {
+                MessageBox.Show("JavaScript - js");
+                xD = 1;
+            }
+            else if (xD == 1)
+            {
+                MessageBox.Show("PHP - Weeb");
+                xD = 2;
+            }
+            else if (xD == 2)
+            {
+                MessageBox.Show("Python - py");
+                xD = 0;
+            }
 
         }
     }

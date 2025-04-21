@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
@@ -45,14 +46,14 @@
             // Tri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+=======
+            this.components = new System.ComponentModel.Container();
+>>>>>>> 1db5f500cb76eae7fd565bb392de65adb05124c1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.checkBox1);
             this.Name = "Tri";
             this.Text = "Tri";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
