@@ -19,6 +19,7 @@ namespace Cuda07
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Hello, World!");   
             DuoForm duoForm = new DuoForm();
             duoForm.ShowDialog();
         }

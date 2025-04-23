@@ -58,6 +58,16 @@ namespace Cuda07
             else if(xD == 6)
             {
                 MessageBox.Show("Cobol - Co");
+                xD = 7;
+            }
+            else if (xD == 7)
+            {
+                MessageBox.Show("Pascal - Pa");
+                xD = 8;
+            }
+            else if (xD == 8)
+            {
+                MessageBox.Show("Ruby - Ru");
                 xD = 0;
             }
 
